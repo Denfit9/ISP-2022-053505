@@ -1,10 +1,7 @@
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
 import argparse
 from text_handler import Handler
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     text = Handler.get_text()
     Handler.show_dictionary(Handler.get_words_numb(Handler.custom_split(text)))
